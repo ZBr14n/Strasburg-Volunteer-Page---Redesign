@@ -1,0 +1,68 @@
+Developers
+
+
+Event Managers
+
+
+Event Coordinator
+
+
+Director of Event Planning
+
+
+Social Media intern
+
+
+
+
+
+
+
+ // <Tabs
+            //     orientation="vertical"
+            //     variant="scrollable"
+            //     value={value}
+            //     onChange={handleChange}
+            //     aria-label="Vertical tabs example"
+            //     className={classes.tabs}
+            // >
+            //     <Tab label="Item One" {...a11yProps(0)} />
+            //     <Tab label="Item Two" {...a11yProps(1)} />
+            //     <Tab label="Item Three" {...a11yProps(2)} />
+            //     <Tab label="Item Four" {...a11yProps(3)} />
+            //     <Tab label="Item Five" {...a11yProps(4)} />
+            //     <Tab label="Item Six" {...a11yProps(5)} />
+            //     <Tab label="Item Seven" {...a11yProps(6)} />
+            // </Tabs>
+
+
+
+
+
+ {
+                jobData.flat().map((entry, index) => (
+                    
+                ))
+            }
+            
+           
+
+            <div className="job-section">
+            {
+                // console.log(jobData)
+                jobData.flat().map((entry, index) => (
+                    
+                    
+                    <TabPanel value={value} index={index}>
+                        <div className="role-desc">
+                            {
+                                parse(`${entry.acf.role_description}`)
+                            }
+                        </div>
+                    </TabPanel>
+                ))
+            }
+            </div>
+
+
+
