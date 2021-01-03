@@ -1,5 +1,9 @@
 # Strasburg-Volunteer-Page---Redesign
 
+### 1/3/21 update - Revised the app to support custom post type instead of using pages for data storage.
+https://github.com/ZBr14n/Strasburg-Volunteer-Page---Redesign/tree/custom-post-type-extension
+
+
 ### Live link:
 https://strasburgfilm.com/volunteer/
 
